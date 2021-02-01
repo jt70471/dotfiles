@@ -1,0 +1,9 @@
+  export PATH=$PATH:$HOME/bin
+  export PATH=$PATH:$HOME/Qt/5.13.2/clang_64/bin
+  export PATH=$PATH:$HOME/Argyll_V2.1.1/bin
+  export PATH=$PATH:$HOME/Library/Python/3.8/bin
+  export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/3.8/bin
+
+  export GOPATH=$HOME/go
+  export GOBIN=$GOPATH/bin
+
