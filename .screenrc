@@ -6,3 +6,11 @@ defscrollback 32000
 
 # Always start `screen` with UTF-8 enabled (`screen -U`)
 defutf8 on
+
+#termcapinfo xterm*|Eterm|mlterm|rxvt 'hs:ts=\E]0;:fs=\007:ds=\E]0;screen\007'
+#term screen-256color
+altscreen on
+
+# create sessions on startup
+screen -t "window 1" 1
+screen -t "window 2" 2

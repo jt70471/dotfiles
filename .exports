@@ -36,3 +36,5 @@ export GPG_TTY=$(tty);
 # Hide the “default interactive shell is now zsh” warning on macOS.
 export BASH_SILENCE_DEPRECATION_WARNING=1;
 
+# don't quote filenames
+export QUOTING_STYLE="literal"
