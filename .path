@@ -1,8 +1,10 @@
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+#export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:$HOME/Qt/5.13.2/clang_64/bin
 export PATH=$PATH:$HOME/Argyll_V2.1.1/bin
-export PATH=$PATH:$HOME/Library/Python/3.8/bin
-export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/3.8/bin
+#export PATH=$PATH:$HOME/Library/Python/3.8/bin
+#export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/3.8/bin
 
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin

@@ -185,3 +185,5 @@
 [user]
 	name = Jeff Thompson
 	email = jefft@threeputt.org
+[pull]
+	rebase = true
